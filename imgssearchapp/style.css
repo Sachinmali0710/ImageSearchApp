@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://wallpaper.forfun.com/fetch/b4/b499df2260fd44cf6cd641d011017501.jpeg?w=1000&r=0.5625');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Poppins',sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-size: 44px;
+    
+    letter-spacing: 1.2px;
+}
+
+
+form{
+    width: 90%;
+    max-width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: cadetblue;
+}
+
+form input{
+    flex: 1;
+    height: 100%;
+    outline: 0px;
+    border: 0px;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: #5c0707;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: #000;
+}
+
+form button{
+    height: 100%;
+    padding: 0px 40px;
+    font-size: 20px;
+    background-color: thistle;
+}
+.storeImages{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.storeImages img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#showmore{
+    padding: 15px 30px;
+    margin: 0px auto 50px;
+    border: none;
+    background-color: thistle;
+    color: #000;
+    font-size: 18px;
+    border-radius: 8px;
+    display: none;
+}
